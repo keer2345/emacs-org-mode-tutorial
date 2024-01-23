@@ -1,0 +1,35 @@
+* The Beautiful Nightmare that is Org Mode
+
+https://github.com/james-stoup/emacs-org-mode-tutorial/
+
+This document is a walkthrough for new Org Mode users that will show how to create an initial configuration that is both
+productive and easy to understand. This is the guide I wish I had found when I first started Org Mode. I needed an
+explanation that tied together a user's workflow, the Org Mode features that support that workflow, a screenshot of what
+that looks like, and the code to make it all happen. Hopefully this guide will help you in your journey of mastering
+Org Mode.
+
+** Why learning Org Mode is so hard
+Learning Org Mode is so challenging because its complexity easily becomes overwhelming. In learning about Org Mode I've
+found that it is often presented to new users as an impenetrable whole with no obvious starting point. The intro guides
+frequently describe basic functionally and the reference custom configurations by advanced users that are breathtaking
+in their scope and complexity. No path is given to go from novice to expert other than vague advice and useless
+platitudes. Most often you will hear variations on "just play with it until it makes sense".
+
+That sentiment is, to put it bluntly, bullshit.
+
+Other tools might have setup wizard, sample configurations, or other tutorials to easy you into the software. However
+Org Mode is designed to be an open ended framework within which you the user can construct your ideal workflow.
+In this regards it is simpler to think of Org Mode as a programming language within Emacs. It is no wonder than
+adoption of this tool is so difficult. If you aren't already a programmer (one with lisp experience no less) you will
+find Org Mode has a brutal learning curve.
+
+** How to use this guide
+
+If you are new to Org Mode, I would highly recommend reading the Workflows section first. Once you feel like you
+understand what your own needs are, then read through the various configurations. At that point, I would highly
+recommend putting some of that code into your own configuration file and experimenting with Org Mode. Look at how
+it functions and start to get a feel for what might work for you. Once you have a more solid grasp on the basics, then
+come back and read up on Tags and Agendas.
+
+There is a lot here and this is only a small fraction of what Org Mode is capable of. Take small steps and don't
+get discouraged. Good Luck.
