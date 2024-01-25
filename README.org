@@ -33,3 +33,89 @@ come back and read up on Tags and Agendas.
 
 There is a lot here and this is only a small fraction of what Org Mode is capable of. Take small steps and don't
 get discouraged. Good Luck.
+
+
+* Workflows
+
+The part that everyone skips over. Org Mode was so difficult for me to learn because I started this process backwards.
+I started trying to use it before having and idea of what I actually wanted it to do.
+
+** How this guide is trying to solve this problems
+
+Understanding Org Mode is a two fold process. The first step is developing a tentative workflow that works for you. The
+second step is figuring out what parts of org mode will support that workflow.
+
+This guide tries to help you discover a workflow that best suits you. Then a few common org configurations will be given
+to show how they can support different parts of a work flow. Finally everything will be modular so that a new user can
+pick and choose what they want to incorporate into their system. This no mean to be a comprehensive list of every
+possible workflow or feature, but rather some common examples for new users to build on.
+
+So, let's dig into the problem.
+
+
+** Understanding workflows
+Most website with Org primers offer a very detailed org configuration that supports their very specific workflow. And
+this is great for them, but not for your average user who might only care about 10% of that particular setup. But since
+it is presented as one unified whole, it can be difficult to separate out which pieces you want vs which pieces will
+break things for you. So before we can start writing any configuration code we need to step back and ask ourselves,
+what should our workflow look like?
+
+I’m going to use this term “workflow” a lot in this document and to prevent any confusion, let’s clearly define it now.
+A workflow is the sum of all the steps you take as you take to complete a task. These steps typically involve
+processing information, tracking your status, organizing important details, and otherwise arranging resources in a
+useful and coherent manner.
+
+At this point you already have existing workflows that possibly involve email clients, calendars, sticky notes,
+notebooks, text messages, Word documents, or anything else you use to organize your life. Org isn’t a magical fix for
+the complexity of life, however it does make it easier to manage that complexity. Hopefully by the end of this guide
+you will discover a way to integrate Org Mode into your existing routines.
+
+To better illustrate workflows, here is an example from my personal life.
+
+*** Personal Workflow Example
+
+I want to track home projects such as furniture I want to build, home renovations, general handy work, and future tools
+to buy. The usual progression of such projects tends to look something like this:
+
+
+~create project -> add details -> add notes -> research it -> start work on project -> finish project~
+
+So if I am going to build a new kitchen table I would create an entry on the project, add details like the dimensions,
+required seating, etc. Then do some research on styles (farm house vs modern) and on lumber (oak vs walnut prices).
+Finally once I had all the information I can create some steps (buy the lumber, dimension it, cut it, assemble it,
+dry fit, sand, stain, seal) so I can get a feel for how long this will take (many weekends) and then start working it.
+
+*** Understanding your workflow options
+
+So here we are. You want to use Org Mode to do…something. You aren’t totally sure what but a lot of really smart people
+seem to think it is useful so you want to give it a try. And so you did what most new users do. You read the startup
+guide, you skim the docs, you realize you don’t understand anything, and shortly thereafter you gave up in despair.
+
+But not today. Today is going to be different.
+
+So let’s start off the right way by first brainstorming some ideas on how you want this whole thing to work. Initially
+you should focus only on establishing the simplest version of your own workflow. Go into this assuming that this is
+going to change and that nothing here is set in stone. Instead, treat this as a first draft that will get thrown
+away, redesigned, or heavily modified as you further understand what it is you really hope to get out of Org Mode.
+Look through the following list and see if any of these things are something you would want to integrate into your
+new Org Mode workflow.
+
+*Common Workflow Components*
+
+-    handling emails
+-    recording meeting notes
+-    tracking time sensitive events
+-    tracking reoccurring events
+-    general to-do items
+-    journals
+-    work logs
+-    prioritizing tasks
+-    tracking your time
+-    generating reports
+-    outlining presentations
+-    outlining a book
+-    tracking JIRA tickets
+-    tracking bugs in code
+-    exporting documents to common formats
+
+And so on and so on.
