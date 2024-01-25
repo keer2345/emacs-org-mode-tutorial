@@ -119,3 +119,54 @@ new Org Mode workflow.
 -    exporting documents to common formats
 
 And so on and so on.
+
+As a side note, something that took me a while to wrap my head around was that not everything has to be interconnected.
+So if you want to keep a journal, there is no reason that it has to be integrated into anything else. Where as you
+might want to keep your meetings in one file, your TODOs in another, and reference both of them in your agenda view.
+
+*** Figuring out your first workflow
+
+So at this point you should take a look at the list above (which is by no means meant to be taken as comprehensive) and
+decide what pieces you want to implement. I’m not going to implement every one of these examples (that would be a
+small book and I’m not that committed to this enterprise) but I am going to implement several of the more important
+ones and hopefully that will serve as a foundation on which to build your own workflow.
+
+Once you figure out what you want to do, starting thinking of the simplest way that you would like to reorganize your
+workflow to incorporate org mode. For example, don’t do this:
+
+/”what are all the steps required to interface with my email client, import my emails, tag them, create TODO’s from
+them, and then sort them in my Agenda View…”/
+
+and instead do this:
+
+/”I want to make TODOs based on my email”/
+
+Note that the second one doesn’t require any fancy configuration. Of course, this means that there are going to be a
+lot of manual steps, BUT THAT IS OK! So in this example, imagine that you come up with the following work flow:
+
+*New possible workflow*
+
+-    open gmail in my web browser
+-    look at my unread messages
+-    open up emacs
+-    create a new Email TODO
+-    fill in all the details by copy and pasting into emacs
+-    do this for a week
+-    live my best life
+
+Now I get what you are thinking. This is a lot of work. This is boring. This isn’t leveraging anything! Where is the
+magic I was promised?
+
+
+I feel you, I really do. But we aren’t there yet. This step is all about seeing if this prototype workflow is actually
+going to be useful. If it is then great! You can go down the road of turning emacs into your own email sorting hub.
+But you might do this for a few days and realize that you really don’t get that many TODOs from your email, but
+instead you get them from meetings and then people just email you later to confirm details. So maybe making your emails
+the center point of this workflow isn’t what you really need.
+
+
+Unfortunately there is no shortcut here. You just have to try a bunch of things out and see what clicks for you.
+Everyone has different needs and this is most definitely not a one-size-fits-all type of solution. But the key here is
+to try different approaches, do it all manually so you have minimal investment (think of how frustrating it would
+have been to spend 10 hours configuring your mail settings only to never use it), and then refine the parts that work
+for you.
